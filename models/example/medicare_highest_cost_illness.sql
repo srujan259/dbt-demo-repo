@@ -1,3 +1,7 @@
+{{ config(
+    materialized="table"
+) }}
+
 select
     drg_definition,
     total_discharges,
