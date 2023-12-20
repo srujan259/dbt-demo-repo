@@ -1,9 +1,3 @@
-{{
-    config(
-        materialized='table'
-    )
-}}
-
 -- This query shows a list of the daily top Google Search terms.
 SELECT
    refresh_date AS Day,
